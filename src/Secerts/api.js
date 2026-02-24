@@ -1,5 +1,5 @@
 const API_KEY = "a848f67585474b37b6391410262302";
-const BASE_URL = "http://api.weatherapi.com/v1";
+const BASE_URL = "https://api.weatherapi.com/v1";
 
 export default async function getWeather(Location) {
   console.log(Location);
