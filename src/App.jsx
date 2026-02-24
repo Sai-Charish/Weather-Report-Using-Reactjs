@@ -10,6 +10,7 @@ import mist from "./assets/mist.png";
 import windImg from "./assets/windImg.png";
 import humidityImg from "./assets/humidity.png";
 import getWeather from "./Secerts/api";
+import search from "./assets/search.png";
 
 export default function App() {
   const [address, setAddress] = useState("City");
@@ -90,7 +91,7 @@ export default function App() {
         >
           <img
             className={`search-img ${day ? "" : "dark"}`}
-            src="\src\assets\search.png"
+            src={search}
             alt="Search"
           />
         </button>
